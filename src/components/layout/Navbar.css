@@ -1,0 +1,17 @@
+:root{
+    --RED: 	#ee1515;
+    --WHITE: #f0f0f0;
+}
+
+.header{
+    top: 0;
+    justify-content: center;
+    position: fixed;
+    background-color: var(--RED);
+    width: 100%;
+} 
+
+h1{
+    font-size: 30px;
+    color: var(--WHITE);
+}
