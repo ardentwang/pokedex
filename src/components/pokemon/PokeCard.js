@@ -1,9 +1,10 @@
-
+import "./PokeCard.css"
 
 const PokeCard = (props) => {
+    console.log(props)
     return (
-        <div>
-            
+        <div className="pokemon-card" key={props.name}>
+            {props.name}
         </div>
     )
 }

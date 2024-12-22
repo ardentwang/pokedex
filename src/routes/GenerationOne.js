@@ -1,5 +1,6 @@
 import "./GenerationOne.css"
 import {useState, useEffect} from 'react'
+import PokeCard from "../components/pokemon/PokeCard"
 
 const GenerationOne = () => {
     const [pokemon, getPokemon] = useState([])
@@ -24,7 +25,11 @@ const GenerationOne = () => {
 
     return (
         <div className="content">
-            {pokemon.map(x => x.name)}
+            <div className="grid">
+                {pokemon.map(pokemon => (
+                    <PokeCard props={pokemon} key={pokemon.name}/>
+                ))}
+            </div>
         </div>
     )
 }
