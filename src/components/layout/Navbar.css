@@ -1,17 +1,28 @@
 :root{
     --RED: 	#ee1515;
     --WHITE: #f0f0f0;
+    --BLACK: #222224;
 }
 
 .header{
     top: 0;
-    justify-content: center;
     position: fixed;
     background-color: var(--RED);
     width: 100%;
+    height: 100px;
+    border-bottom: 1rem solid;
+    border-bottom-color: var(--BLACK);
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        .nav-link{
+            background-color: #ffffff;
+            color:#222224;
+            padding: 10px 30px;
+            border-color: #222224;
+            border-radius: 4rem;
+        }
+    }
 } 
-
-h1{
-    font-size: 30px;
-    color: var(--WHITE);
-}
