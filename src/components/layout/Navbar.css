@@ -5,6 +5,7 @@
 }
 
 .header{
+    z-index: 5;
     top: 0;
     position: fixed;
     background-color: var(--RED);
@@ -23,6 +24,7 @@
             padding: 10px 30px;
             border-color: #222224;
             border-radius: 4rem;
+            font-family: "Poppins";
         }
     }
 } 

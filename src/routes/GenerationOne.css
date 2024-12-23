@@ -1,6 +1,7 @@
 .content{
     padding-top: 120px;
-    padding-left: 100px;
+    padding-left: 8%;
+    padding-right: 10%;
     .grid{
         display: grid;
         column-gap: 20px;

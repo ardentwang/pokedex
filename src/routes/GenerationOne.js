@@ -27,7 +27,7 @@ const GenerationOne = () => {
         <div className="content">
             <div className="grid">
                 {pokemon.map(pokemon => (
-                    <PokeCard props={pokemon} key={pokemon.name}/>
+                    <PokeCard pokemon={pokemon} key={pokemon.name}/>
                 ))}
             </div>
         </div>
