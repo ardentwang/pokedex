@@ -37,7 +37,8 @@ button {
         background-color: rgb(255, 163, 163);
         border-radius: 10% 10% 10% 10%;
         margin-top: 60px;
-        margin-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
         width: 270px;
         height: 240px
     }
