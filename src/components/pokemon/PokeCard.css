@@ -1,10 +1,15 @@
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
 .pokemon-card{
     width: 300px;
     height: 300px;
     background-color: rgb(255, 163, 163);
-    border-radius: 0.2em;
     position: static;
-    display: flex;
     border-radius: 10%;
     .entry {
         z-index: 1; /* navbar is set to 5, # and name will not overlap da navbar :3 */
@@ -16,7 +21,6 @@
         font-family: "Poppins", sans-serif;
         font-size: 25px;
         background-color: aliceblue;
-        border-radius:  10% 10% 0 0;
         .pokedex-number{
             display: flex;
             width: 80px;
@@ -30,12 +34,16 @@
         }
     }
     img{
-        background-color: black;
-        margin-left: 30px;
+        background-color: rgb(255, 163, 163);
+        border-radius: 10% 10% 10% 10%;
         margin-top: 60px;
-        border-radius: 10%;
-        width: 90%;
+        margin-left: 15px;
+        width: 270px;
         height: 240px
     }
 
+}
+
+.pokemon-card:hover{
+    background-color: aqua;
 }
